@@ -1,0 +1,17 @@
+{
+  "name": "zipo-backend",
+  "version": "1.0.0",
+  "description": "PhonePe payment initiation + booking tracking backend for ZIPO",
+  "main": "phonepe-server.js",
+  "scripts": {
+    "start": "node phonepe-server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.7",
+    "google-auth-library": "^9.14.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
